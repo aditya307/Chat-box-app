@@ -1,0 +1,19 @@
+{
+  "name": "chat-box",
+  "version": "1.0.0",
+  "description": "real time chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "ADi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "mongodb": "^3.5.7",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
